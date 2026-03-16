@@ -26,7 +26,7 @@ const HeroSection = () => {
             <h1 className="display-l1 text-foreground mb-6">
               Ten un stand en el EtMday<span className="text-primary">2026</span>
             </h1>
-            <img src={colorsLine} alt="" className="w-48 mb-6" />
+            <img src={colorsLine} alt="" className="w-96 h-4 mb-6" />
             <p className="text-lg text-muted-foreground max-w-lg mb-2">
               El encuentro internacional de innovación y emprendimiento más grande de latinoamérica.
             </p>

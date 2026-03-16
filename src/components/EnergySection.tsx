@@ -81,7 +81,7 @@ const EnergySection = () => {
         </div>
 
         {/* Color line */}
-        <img src={colorsLine} alt="" className="w-full max-w-md mb-8" />
+        <img src={colorsLine} alt="" className="w-full max-w-lg h-4 mb-8" />
 
         {/* Testimonials */}
         <div className="grid md:grid-cols-3 etm-grid">

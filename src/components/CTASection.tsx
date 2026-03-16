@@ -10,7 +10,7 @@ const CTASection = () => {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true }}
         >
-          <p className="mono-label text-primary-foreground/70 mb-4">EtMday 2026</p>
+          <p className="text-xs tracking-widest text-primary-foreground/70 mb-4 font-medium">EtMday 2026</p>
           <h2 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-primary-foreground mb-6">
             ¿Estás listo para jugar en grande?
           </h2>

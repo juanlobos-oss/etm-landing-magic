@@ -101,7 +101,7 @@
   }
 
   .stat-number {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-variant-numeric: tabular-nums;
     @apply text-4xl md:text-5xl font-bold;
   }

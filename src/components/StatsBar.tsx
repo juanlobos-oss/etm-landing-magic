@@ -12,7 +12,7 @@ const StatsBar = () => {
   return (
     <section className="bg-primary">
       <div className="container mx-auto px-4 md:px-8">
-        <p className="mono-label text-background/70 pt-4 pb-2">Solo en 2025:</p>
+        <p className="text-xs tracking-widest text-primary-foreground/70 pt-4 pb-2 font-medium">Solo en 2025:</p>
         <div className="grid grid-cols-2 md:grid-cols-5 border-t border-background/20">
           {stats.map((stat, i) => (
             <motion.div
