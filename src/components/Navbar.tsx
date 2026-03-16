@@ -10,9 +10,9 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-8">
           <a href="https://etmday.org" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Inicio</a>
           <a href="https://etmday.org/noticias" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Noticias</a>
-          <a href="#postular" className="btn-etm-primary text-sm py-2 px-6">Postular</a>
+          <a href="#proceso" className="btn-etm-primary text-sm py-2 px-6">Postular</a>
         </div>
-        <a href="#postular" className="md:hidden btn-etm-primary text-xs py-2 px-4">Postular</a>
+        <a href="#proceso" className="md:hidden btn-etm-primary text-xs py-2 px-4">Postular</a>
       </div>
       <div className="rainbow-bar" />
     </nav>
