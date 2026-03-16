@@ -47,7 +47,7 @@ const CategoriesSection = () => {
           <h2 className="display-l2 text-foreground">
             Este año abrimos 4 líneas de postulación
           </h2>
-          <img src={colorsLine} alt="" className="w-48 mt-4" />
+          <img src={colorsLine} alt="" className="w-96 h-4 mt-4" />
           <p className="text-muted-foreground mt-4 max-w-2xl">
             Para ordenar mejor la experiencia y potenciar el impacto, los stands de emprendedores del 
             EtMday2026 tendrán cuatro categorías oficiales:
@@ -70,7 +70,7 @@ const CategoriesSection = () => {
                 <img
                   src={cat.image}
                   alt={cat.title}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover transition-all duration-500"
                 />
               </div>
               <p className="text-muted-foreground text-sm">{cat.description}</p>

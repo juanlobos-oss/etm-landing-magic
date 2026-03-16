@@ -38,22 +38,26 @@ const ProcessSection = () => {
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 md:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          viewport={{ once: true }}
-          className="mb-12"
-        >
-          <p className="mono-label mb-3">Proceso</p>
-          <h2 className="display-l2 text-foreground mb-4">
-            El proceso de postulación
-          </h2>
-          <img src={colorsLine} alt="" className="w-48 mb-4" />
-          <p className="text-muted-foreground max-w-xl">
-            Sé parte del corazón del encuentro de innovación, emprendimiento e inversión más grande de latinoamérica.
-          </p>
-        </motion.div>
+        <div className="flex items-start justify-between mb-12">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            viewport={{ once: true }}
+          >
+            <p className="mono-label mb-3">Proceso</p>
+            <h2 className="display-l2 text-foreground mb-4">
+              El proceso de postulación
+            </h2>
+            <img src={colorsLine} alt="" className="w-96 h-4 mb-4" />
+            <p className="text-muted-foreground max-w-xl">
+              Sé parte del corazón del encuentro de innovación, emprendimiento e inversión más grande de latinoamérica.
+            </p>
+          </motion.div>
+          <a href="https://etmday.org" className="btn-etm-outline hidden md:inline-block flex-shrink-0 ml-8">
+            Revisa las bases
+          </a>
+        </div>
 
         <div className="grid md:grid-cols-5 etm-grid">
           {steps.map((s, i) => (
