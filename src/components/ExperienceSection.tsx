@@ -1,4 +1,8 @@
 import { motion } from "framer-motion";
+import exp1 from "@/assets/exp-1.jpg";
+import exp2 from "@/assets/exp-2.jpg";
+import exp3 from "@/assets/exp-3.jpg";
+import exp4 from "@/assets/exp-4.jpg";
 
 const ExperienceSection = () => {
   return (
@@ -40,7 +44,7 @@ const ExperienceSection = () => {
                 </li>
               ))}
             </ul>
-            <a href="#postular" className="btn-etm-primary">Postular</a>
+            <a href="#proceso" className="btn-etm-primary">Postular</a>
           </motion.div>
 
           <motion.div
@@ -51,14 +55,17 @@ const ExperienceSection = () => {
             className="space-y-4"
           >
             <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden rounded-md">
-                <img src="https://etmday.org/content/uploads/2026/01/etm-10-1.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp1} alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
-              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden rounded-md">
-                <img src="https://etmday.org/content/uploads/2026/01/etm-38-scaled.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp2} alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
-              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden col-span-2 rounded-md">
-                <img src="https://etmday.org/content/uploads/2026/01/0C5A1382-scaled.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp3} alt="Stand EtMday" className="w-full h-full object-cover" />
+              </div>
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp4} alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
             </div>
           </motion.div>

@@ -36,24 +36,45 @@ const steps = [
 
 const ProcessSection = () => {
   return (
-    <section className="py-20 bg-secondary">
+    <section id="proceso" className="py-20 bg-secondary">
       <div className="container mx-auto px-4 md:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          viewport={{ once: true }}
-          className="mb-12">
-          
-          <p className="mono-label mb-3">Proceso</p>
-          <h2 className="display-l2 text-foreground mb-4">
-            El proceso de postulación
-          </h2>
-          <img src={colorsLine} alt="" className="w-48 mb-4" />
-          <p className="text-muted-foreground max-w-xl">
-            Sé parte del corazón del Encuentro de Innovación, Emprendimiento e Inversión más grande de Latinoamérica.
-          </p>
-        </motion.div>
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-12">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            viewport={{ once: true }}>
+            
+            <p className="mono-label mb-3">Proceso</p>
+            <h2 className="display-l2 text-foreground mb-4">
+              El proceso de postulación
+            </h2>
+            <img src={colorsLine} alt="" className="w-48 mb-4" />
+            <p className="text-muted-foreground max-w-xl">
+              Sé parte del corazón del Encuentro de Innovación, Emprendimiento e Inversión más grande de Latinoamérica.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+            viewport={{ once: true }}
+            className="flex flex-col sm:flex-row gap-3 md:mt-2">
+            <a
+              href="https://etmday.org"
+              className="border border-border text-foreground font-bold uppercase px-6 py-3 rounded-full hover:bg-foreground hover:text-background transition-colors duration-200 text-sm text-center whitespace-nowrap"
+            >
+              Revisar las bases
+            </a>
+            <a
+              href="https://etmday.org"
+              className="btn-etm-primary text-sm py-3 px-6 text-center whitespace-nowrap"
+            >
+              Rellenar formulario
+            </a>
+          </motion.div>
+        </div>
 
         <div className="grid md:grid-cols-5 etm-grid">
           {steps.map((s, i) =>
@@ -89,6 +110,10 @@ const ProcessSection = () => {
             <li className="flex items-start gap-2">
               <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
               Quienes queden preseleccionados tendrán que asegurar su participación, firmando el contrato de participación y pagando la garantía dentro del plazo; de lo contrario, tu cupo podrá asignarse a otro emprendedor.
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
+              La garantía ($200.000) será devuelta dentro de 10 días hábiles después del evento.
             </li>
           </ul>
         </motion.div>

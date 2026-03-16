@@ -49,7 +49,7 @@ const HeroSection = () => {
               <p className="text-primary font-bold text-lg mb-6">
                 Sé parte del corazón del EtMday en los stands de emprendedores. Es gratis.
               </p>
-              <a href="#postular" className="btn-etm-primary">Postular ahora</a>
+              <a href="#proceso" className="btn-etm-primary">Postular ahora</a>
             </div>
           </motion.div>
         </div>
