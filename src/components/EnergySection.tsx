@@ -40,7 +40,7 @@ const EnergySection = () => {
             La energía del EtMday
           </h2>
           <p className="text-muted-foreground max-w-xl">
-            Hay algo que no se puede explicar en una pauta. <span className="text-foreground font-bold">Se siente.</span>
+            Hay cosas que no se explican. <span className="text-foreground font-bold">Se viven.</span>
           </p>
         </motion.div>
 

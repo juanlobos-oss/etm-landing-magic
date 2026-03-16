@@ -88,7 +88,7 @@ const ProcessSection = () => {
             </li>
             <li className="flex items-start gap-2">
               <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
-              Para asegurar tu participación, debes firmar contrato y pagar la garantía dentro del plazo; de lo contrario, tu cupo podrá asignarse a otro emprendedor.
+              Quienes queden preseleccionados tendrán que asegurar su participación, firmando el contrato de participación y pagando la garantía dentro del plazo; de lo contrario, tu cupo podrá asignarse a otro emprendedor.
             </li>
           </ul>
         </motion.div>

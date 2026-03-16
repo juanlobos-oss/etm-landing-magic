@@ -60,7 +60,6 @@ const CategoriesSection = () => {
             transition={{ duration: 0.4, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
             viewport={{ once: true }}>
             
-              <p className="text-2xl mb-2">{cat.icon}</p>
               <h3 className="text-foreground font-bold text-lg mb-4">{cat.title}</h3>
               <div className="aspect-[4/3] overflow-hidden mb-4 border border-border rounded-md">
                 <img
