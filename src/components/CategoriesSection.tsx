@@ -8,7 +8,7 @@ import colorsLine from "@/assets/colors-underline.svg";
 const categories = [
 {
   icon: "💻",
-  title: "Startups & Scaleups",
+  title: "Startups",
   image: imgStartups,
   description: "Negocios de base tecnológica con alto impacto y potencial de escalamiento."
 },
