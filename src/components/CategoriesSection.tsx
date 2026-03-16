@@ -7,25 +7,21 @@ import colorsLine from "@/assets/colors-underline.svg";
 
 const categories = [
 {
-  icon: "💻",
   title: "Startups",
   image: imgStartups,
   description: "Negocios de base tecnológica con alto impacto y potencial de escalamiento."
 },
 {
-  icon: "🛍",
   title: "Emprendimientos Tradicionales",
   image: imgTradicional,
-  description: "Productos y servicios tradicionales que buscan escalar sus negocios al siguiente nivel."
+  description: "Productos y servicios innovadores que buscan escalar sus negocios al siguiente nivel."
 },
 {
-  icon: "🛒",
   title: "Bazar Tradicional",
   image: imgBazar,
-  description: "Productos tradicionales innovadores que buscan, principalmente, vender."
+  description: "Negocios de productos innovadores que buscan, principalmente, visibilizar su propuesta de valor."
 },
 {
-  icon: "🧪",
   title: "Proyectos de I+D",
   image: imgID,
   description: "Investigación aplicada por centros de estudio, ciencia y desarrollo tecnológico."
