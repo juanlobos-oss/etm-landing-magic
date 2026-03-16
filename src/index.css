@@ -84,7 +84,7 @@
   }
 
   .mono-label {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Inter', sans-serif;
     @apply text-xs uppercase tracking-widest text-muted-foreground;
   }
 
