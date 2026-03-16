@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import colorsLine from "@/assets/colors-underline.svg";
 
 const steps = [
   {
@@ -46,8 +47,9 @@ const ProcessSection = () => {
         >
           <p className="mono-label mb-3">Proceso</p>
           <h2 className="display-l2 text-foreground mb-4">
-            EL PROCESO DE POSTULACIÓN
+            El proceso de postulación
           </h2>
+          <img src={colorsLine} alt="" className="w-48 mb-4" />
           <p className="text-muted-foreground max-w-xl">
             Sé parte del corazón del encuentro de innovación, emprendimiento e inversión más grande de latinoamérica.
           </p>
@@ -72,7 +74,7 @@ const ProcessSection = () => {
         </div>
 
         <motion.div
-          className="mt-8 border border-border p-6"
+          className="mt-8 border border-border p-6 rounded-md"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.3 }}

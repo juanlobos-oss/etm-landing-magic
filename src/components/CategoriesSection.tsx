@@ -3,6 +3,7 @@ import imgStartups from "@/assets/stands-startups.jpg";
 import imgTradicional from "@/assets/stands-tradicional.jpg";
 import imgBazar from "@/assets/stands-bazar.jpg";
 import imgID from "@/assets/stands-id.jpg";
+import colorsLine from "@/assets/colors-underline.svg";
 
 const categories = [
   {
@@ -44,8 +45,9 @@ const CategoriesSection = () => {
         >
           <p className="mono-label mb-3">Categorías 2026</p>
           <h2 className="display-l2 text-foreground">
-            ESTE AÑO ABRIMOS 4 LÍNEAS DE POSTULACIÓN
+            Este año abrimos 4 líneas de postulación
           </h2>
+          <img src={colorsLine} alt="" className="w-48 mt-4" />
           <p className="text-muted-foreground mt-4 max-w-2xl">
             Para ordenar mejor la experiencia y potenciar el impacto, los stands de emprendedores del 
             EtMday2026 tendrán cuatro categorías oficiales:
@@ -64,7 +66,7 @@ const CategoriesSection = () => {
             >
               <p className="text-2xl mb-2">{cat.icon}</p>
               <h3 className="text-foreground font-bold text-lg mb-4">{cat.title}</h3>
-              <div className="aspect-[4/3] overflow-hidden mb-4 border border-border">
+              <div className="aspect-[4/3] overflow-hidden mb-4 border border-border rounded-md">
                 <img
                   src={cat.image}
                   alt={cat.title}
