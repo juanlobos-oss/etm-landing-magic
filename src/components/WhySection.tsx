@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import energyImg from "@/assets/etmday-energy.jpg";
+import why1 from "@/assets/why-1.jpg";
+import why2 from "@/assets/why-2.jpg";
+import why3 from "@/assets/why-3.jpg";
 
 const benefits = [
   "Conectar con tomadores de decisión.",
@@ -48,21 +50,26 @@ const WhySection = () => {
                 </motion.li>
               ))}
             </ul>
-            <a href="#postular" className="btn-etm-primary">Postular</a>
+            <a href="#proceso" className="btn-etm-primary">Postular</a>
           </motion.div>
 
           <motion.div
-            className="space-y-4"
+            className="grid grid-cols-2 gap-3 h-fit"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             viewport={{ once: true }}
           >
-            <div className="border border-border overflow-hidden rounded-md">
-              <img src={energyImg} alt="Networking EtMday" className="w-full aspect-[4/3] object-cover" />
+            {/* Large image spanning full width */}
+            <div className="col-span-2 overflow-hidden rounded-md border border-border">
+              <img src={why3} alt="Stands EtMday" className="w-full h-48 object-cover" />
             </div>
-            <div className="border border-border p-6 rounded-md">
-              <img src={energyImg} alt="Stands EtMday" className="w-full aspect-video object-cover object-bottom mb-4 rounded-md" />
+            {/* Two smaller images side by side */}
+            <div className="overflow-hidden rounded-md border border-border">
+              <img src={why1} alt="Emprendedores EtMday" className="w-full h-40 object-cover" />
+            </div>
+            <div className="overflow-hidden rounded-md border border-border">
+              <img src={why2} alt="Innovación EtMday" className="w-full h-40 object-cover object-top" />
             </div>
           </motion.div>
         </div>
