@@ -6,7 +6,7 @@ const fadeUp = {
   initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
   transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as const },
-  viewport: { once: true },
+  viewport: { once: true }
 };
 
 const HeroSection = () => {
@@ -26,9 +26,9 @@ const HeroSection = () => {
             <h1 className="display-l1 text-foreground mb-6">
               Ten un stand en el EtMday<span className="text-primary">2026</span>
             </h1>
-            <img src={colorsLine} alt="" className="w-96 h-4 mb-6" />
+            <img src={colorsLine} alt="" className="w-48 mb-6" />
             <p className="text-lg text-muted-foreground max-w-lg mb-2">
-              El encuentro internacional de innovación y emprendimiento más grande de latinoamérica.
+              El Encuentro Internacional de Innovación, Emprendimiento e Inversión más grande de Latinoamérica.
             </p>
           </motion.div>
 
@@ -54,8 +54,8 @@ const HeroSection = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
