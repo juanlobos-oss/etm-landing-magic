@@ -70,7 +70,7 @@ const CategoriesSection = () => {
                 <img
                   src={cat.image}
                   alt={cat.title}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover transition-all duration-500"
                 />
               </div>
               <p className="text-muted-foreground text-sm">{cat.description}</p>
