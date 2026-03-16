@@ -5,7 +5,7 @@ const stats = [
   { number: "+750", label: "stands de emprendedores" },
   { number: "110.000", label: "conexiones registradas" },
   { number: "+120", label: "organizaciones del ecosistema" },
-  { number: "+10", label: "países presentes" },
+  { number: "+20", label: "países presentes" },
 ];
 
 const StatsBar = () => {
