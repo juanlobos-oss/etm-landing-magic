@@ -18,7 +18,7 @@ const steps = [
   step: "03",
   title: "Confirma tu participación",
   date: "Hasta el 1 de septiembre",
-  description: "Firma del contrato y paga la garantía ($200.000) para confirmar tu participación."
+  description: "Firma del contrato y pago de la garantía ($200.000) para confirmar tu participación."
 },
 {
   step: "04",
