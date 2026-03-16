@@ -23,8 +23,8 @@ const StatsBar = () => {
               transition={{ duration: 0.4, delay: i * 0.05, ease: [0.16, 1, 0.3, 1] }}
               viewport={{ once: true }}
             >
-              <p className="stat-number text-background">{stat.number}</p>
-              <p className="text-sm text-background/80 mt-1">{stat.label}</p>
+              <p className="stat-number text-primary-foreground">{stat.number}</p>
+              <p className="text-sm text-primary-foreground/80 mt-1">{stat.label}</p>
             </motion.div>
           ))}
         </div>
