@@ -10,31 +10,31 @@ const CTASection = () => {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true }}
         >
-          <p className="mono-label text-background/70 mb-4">EtMday 2026</p>
-          <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.9] text-background mb-6">
-            ¿ESTÁS LISTO PARA JUGAR EN GRANDE?
+          <p className="mono-label text-primary-foreground/70 mb-4">EtMday 2026</p>
+          <h2 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-primary-foreground mb-6">
+            ¿Estás listo para jugar en grande?
           </h2>
-          <p className="text-background/80 text-lg max-w-2xl mx-auto mb-4">
+          <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto mb-4">
             EtMday 2026 no es masivo por casualidad. Es grande porque el ecosistema lo hace grande.
           </p>
-          <div className="space-y-1 text-background/90 font-semibold text-xl mb-8">
+          <div className="space-y-1 text-primary-foreground/90 font-semibold text-xl mb-8">
             <p>Si tienes ambición.</p>
             <p>Si tienes claridad.</p>
             <p>Si quieres crecer.</p>
-            <p className="text-background font-black text-2xl mt-2">Este es tu lugar.</p>
+            <p className="text-primary-foreground font-black text-2xl mt-2">Este es tu lugar.</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://etmday.org"
-              className="bg-background text-primary font-black uppercase px-10 py-5 hover:bg-foreground hover:text-background transition-colors duration-200 inline-block text-center text-lg"
+              className="bg-background text-foreground font-black uppercase px-10 py-5 rounded-full hover:bg-foreground hover:text-background transition-colors duration-200 inline-block text-center text-lg"
             >
-              POSTULAR AHORA
+              Postular ahora
             </a>
             <a
               href="https://etmday.org"
-              className="border-2 border-background text-background font-bold uppercase px-10 py-5 hover:bg-background hover:text-primary transition-colors duration-200 inline-block text-center bg-transparent"
+              className="border-2 border-primary-foreground text-primary-foreground font-bold uppercase px-10 py-5 rounded-full hover:bg-primary-foreground hover:text-primary transition-colors duration-200 inline-block text-center bg-transparent"
             >
-              REVISA LAS BASES
+              Revisa las bases
             </a>
           </div>
         </motion.div>

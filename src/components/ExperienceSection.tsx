@@ -13,7 +13,7 @@ const ExperienceSection = () => {
           >
             <p className="mono-label mb-3">La experiencia</p>
             <h2 className="display-l2 text-foreground mb-6">
-              ¿CÓMO ES TENER UN STAND EN ETMDAY?
+              ¿Cómo es tener un stand en EtMday?
             </h2>
             <div className="space-y-1 text-muted-foreground mb-6">
               <p>Es intenso.</p>
@@ -40,7 +40,7 @@ const ExperienceSection = () => {
                 </li>
               ))}
             </ul>
-            <a href="#postular" className="btn-etm-primary">POSTULAR</a>
+            <a href="#postular" className="btn-etm-primary">Postular</a>
           </motion.div>
 
           <motion.div
@@ -51,13 +51,13 @@ const ExperienceSection = () => {
             className="space-y-4"
           >
             <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden">
+              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden rounded-md">
                 <img src="https://etmday.org/content/uploads/2026/01/etm-10-1.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
-              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden">
+              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden rounded-md">
                 <img src="https://etmday.org/content/uploads/2026/01/etm-38-scaled.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
-              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden col-span-2">
+              <div className="aspect-square bg-secondary border border-border flex items-center justify-center overflow-hidden col-span-2 rounded-md">
                 <img src="https://etmday.org/content/uploads/2026/01/0C5A1382-scaled.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
             </div>

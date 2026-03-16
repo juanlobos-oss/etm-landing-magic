@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroImg from "@/assets/etmday-hero.jpg";
+import colorsLine from "@/assets/colors-underline.svg";
 
 const fadeUp = {
   initial: { opacity: 0, y: 20 },
@@ -23,8 +24,9 @@ const HeroSection = () => {
           <motion.div {...fadeUp}>
             <p className="mono-label mb-4">EtMday 2026 · Stands de Emprendedores</p>
             <h1 className="display-l1 text-foreground mb-6">
-              TEN UN STAND EN EL ETMDAY<span className="text-primary">2026</span>
+              Ten un stand en el EtMday<span className="text-primary">2026</span>
             </h1>
+            <img src={colorsLine} alt="" className="w-48 mb-6" />
             <p className="text-lg text-muted-foreground max-w-lg mb-2">
               El encuentro internacional de innovación y emprendimiento más grande de latinoamérica.
             </p>
@@ -32,7 +34,7 @@ const HeroSection = () => {
 
           {/* Right: Description */}
           <motion.div {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.15 }}>
-            <div className="border border-border p-8">
+            <div className="border border-border p-8 rounded-lg">
               <p className="text-muted-foreground mb-4">EtMday no es una feria.</p>
               <p className="text-foreground mb-4">
                 Es el punto de encuentro donde emprendedores, grandes empresas, inversionistas, 
@@ -47,7 +49,7 @@ const HeroSection = () => {
               <p className="text-primary font-bold text-lg mb-6">
                 Sé parte del corazón del EtMday en los stands de emprendedores. Es gratis.
               </p>
-              <a href="#postular" className="btn-etm-primary">POSTULAR AHORA</a>
+              <a href="#postular" className="btn-etm-primary">Postular ahora</a>
             </div>
           </motion.div>
         </div>

@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import energyImg from "@/assets/etmday-energy.jpg";
+import colorsLine from "@/assets/colors-underline.svg";
 
 const testimonials = [
   {
@@ -35,7 +37,7 @@ const EnergySection = () => {
         >
           <p className="mono-label mb-3">La energía</p>
           <h2 className="display-l2 text-foreground mb-4">
-            LA ENERGÍA DEL ETMDAY
+            La energía del EtMday
           </h2>
           <p className="text-muted-foreground max-w-xl">
             Hay algo que no se puede explicar en una pauta. <span className="text-foreground font-bold">Se siente.</span>
@@ -43,6 +45,7 @@ const EnergySection = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
+          {/* Left: energy points */}
           <ul className="space-y-4">
             {energyPoints.map((point, i) => (
               <motion.li
@@ -57,18 +60,28 @@ const EnergySection = () => {
               </motion.li>
             ))}
           </ul>
+
+          {/* Right: photo + quote */}
           <motion.div
-            className="flex items-center"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
+            className="space-y-4"
           >
-            <p className="text-primary italic text-lg font-medium">
-              *El espacio más valorado para hacer networking en todo el evento fueron los stands de emprendedores.
-            </p>
+            <div className="border border-border overflow-hidden rounded-md">
+              <img src={energyImg} alt="Energía EtMday" className="w-full aspect-video object-cover" />
+            </div>
+            <div className="border border-primary/30 bg-primary/5 p-5 rounded-md">
+              <p className="text-primary italic text-lg font-medium">
+                *El espacio más valorado para hacer networking en todo el evento fueron los stands de emprendedores.
+              </p>
+            </div>
           </motion.div>
         </div>
+
+        {/* Color line */}
+        <img src={colorsLine} alt="" className="w-full max-w-md mb-8" />
 
         {/* Testimonials */}
         <div className="grid md:grid-cols-3 etm-grid">

@@ -27,7 +27,7 @@ const WhySection = () => {
           >
             <p className="mono-label mb-3">¿Por qué participar?</p>
             <h2 className="display-l2 text-foreground mb-6">
-              ¿POR QUÉ POSTULAR A UN STAND EN EL ETMDAY?
+              ¿Por qué postular a un stand en el EtMday?
             </h2>
             <p className="text-muted-foreground mb-6">
               Porque aquí no vienes solo a "estar presente".
@@ -48,7 +48,7 @@ const WhySection = () => {
                 </motion.li>
               ))}
             </ul>
-            <a href="#postular" className="btn-etm-primary">POSTULAR</a>
+            <a href="#postular" className="btn-etm-primary">Postular</a>
           </motion.div>
 
           <motion.div
@@ -58,11 +58,11 @@ const WhySection = () => {
             transition={{ duration: 0.5, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             viewport={{ once: true }}
           >
-            <div className="border border-border overflow-hidden">
+            <div className="border border-border overflow-hidden rounded-md">
               <img src={energyImg} alt="Networking EtMday" className="w-full aspect-[4/3] object-cover" />
             </div>
-            <div className="border border-border p-6">
-              <img src={energyImg} alt="Stands EtMday" className="w-full aspect-video object-cover object-bottom mb-4" />
+            <div className="border border-border p-6 rounded-md">
+              <img src={energyImg} alt="Stands EtMday" className="w-full aspect-video object-cover object-bottom mb-4 rounded-md" />
             </div>
           </motion.div>
         </div>
