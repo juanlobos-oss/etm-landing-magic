@@ -49,7 +49,7 @@ const ProcessSection = () => {
           <h2 className="display-l2 text-foreground mb-4">
             El proceso de postulación
           </h2>
-          <img src={colorsLine} alt="" className="w-48 mb-4" />
+          <img src={colorsLine} alt="" className="w-96 h-4 mb-4" />
           <p className="text-muted-foreground max-w-xl">
             Sé parte del corazón del encuentro de innovación, emprendimiento e inversión más grande de latinoamérica.
           </p>
