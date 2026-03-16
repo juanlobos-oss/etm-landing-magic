@@ -28,7 +28,7 @@ const HeroSection = () => {
             </h1>
             <img src={colorsLine} alt="" className="w-48 mb-6" />
             <p className="text-lg text-muted-foreground max-w-lg mb-2">
-              El Encuentro Internacional de Innovación, Emprendimiento e Inversión más grande de Latinoamérica.
+               Encuentro Internacional de Innovación, Emprendimiento e Inversión más grande de Latinoamérica.
             </p>
           </motion.div>
 
