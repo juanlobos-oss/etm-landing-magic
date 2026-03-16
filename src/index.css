@@ -89,13 +89,13 @@
   }
 
   .btn-etm-primary {
-    @apply bg-primary text-primary-foreground font-black uppercase px-8 py-4 
+    @apply bg-primary text-primary-foreground font-black uppercase px-8 py-4 rounded-full
            hover:bg-foreground hover:text-background transition-colors duration-200 
            border-0 cursor-pointer inline-block text-center no-underline;
   }
 
   .btn-etm-outline {
-    @apply border border-foreground text-foreground font-bold uppercase px-8 py-4 
+    @apply border border-foreground text-foreground font-bold uppercase px-8 py-4 rounded-full
            hover:bg-foreground hover:text-background transition-colors duration-200 
            cursor-pointer inline-block text-center no-underline bg-transparent;
   }
