@@ -17,7 +17,7 @@ const StatsBar = () => {
           {stats.map((stat, i) => (
             <motion.div
               key={i}
-              className="border-b md:border-b-0 border-r border-background/20 p-6 last:border-r-0"
+              className="border-b md:border-b-0 border-r border-primary-foreground/20 p-6 last:border-r-0"
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: i * 0.05, ease: [0.16, 1, 0.3, 1] }}
