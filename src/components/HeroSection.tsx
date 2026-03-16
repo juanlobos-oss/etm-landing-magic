@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/exp-3.jpg";
+import heroImg from "@/assets/etmday-hero.jpg";
 import colorsLine from "@/assets/colors-underline.svg";
 
 const fadeUp = {
