@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import why1 from "@/assets/why-1.jpg";
-import why2 from "@/assets/why-2.jpg";
-import why3 from "@/assets/why-3.jpg";
+import why1 from "@/assets/why-1.jpg";
 import why4 from "@/assets/why-4.jpg";
 
 const benefits = [
