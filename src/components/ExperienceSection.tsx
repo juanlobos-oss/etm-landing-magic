@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import exp1 from "@/assets/exp-1.jpg";
 import exp2 from "@/assets/exp-2.jpg";
-import exp3 from "@/assets/exp-3.jpg";
-import exp4 from "@/assets/exp-4.jpg";
 
 const ExperienceSection = () => {
   return (

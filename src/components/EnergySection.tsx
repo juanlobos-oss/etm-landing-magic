@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import energyImg from "@/assets/etmday-energy.jpg";
+
 import colorsLine from "@/assets/colors-underline.svg";
 
 const testimonials = [
