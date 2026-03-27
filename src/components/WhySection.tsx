@@ -20,8 +20,9 @@ const WhySection = () => {
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid md:grid-cols-2 gap-16 items-stretch">
+        <div className="grid md:grid-cols-2 gap-16">
           <motion.div
+            className="flex flex-col"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
@@ -50,12 +51,14 @@ const WhySection = () => {
                 </motion.li>
               ))}
             </ul>
-            <a href="#proceso" className="btn-etm-primary">Postular</a>
+            <div className="mt-auto">
+              <a href="#proceso" className="btn-etm-primary">Postular</a>
+            </div>
           </motion.div>
 
           <motion.div
-            className="grid grid-cols-2 gap-3"
-            style={{ gridTemplateRows: '1.2fr 1fr' }}
+            className="grid grid-cols-2 gap-3 self-stretch"
+            style={{ gridTemplateRows: '3fr 2fr' }}
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
