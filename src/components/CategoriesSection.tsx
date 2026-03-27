@@ -1,32 +1,26 @@
 import { motion } from "framer-motion";
 import imgStartups from "@/assets/stands-startups.jpg";
 import imgTradicional from "@/assets/stands-tradicional.jpg";
-import imgBazar from "@/assets/stands-bazar.jpg";
 import imgID from "@/assets/stands-id.jpg";
 import colorsLine from "@/assets/colors-underline.svg";
 
 const categories = [
-{
-  title: "Startups",
-  image: imgStartups,
-  description: "Negocios de base tecnológica con alto impacto y potencial de escalamiento."
-},
-{
-  title: "Emprendimientos Tradicionales",
-  image: imgTradicional,
-  description: "Productos y servicios innovadores que buscan escalar sus negocios al siguiente nivel."
-},
-{
-  title: "Bazar Tradicional",
-  image: imgBazar,
-  description: "Negocios de productos innovadores que buscan, principalmente, visibilizar su propuesta de valor."
-},
-{
-  title: "Proyectos de I+D",
-  image: imgID,
-  description: "Investigación aplicada por centros de estudio, ciencia y desarrollo tecnológico."
-}];
-
+  {
+    title: "Startups",
+    image: imgStartups,
+    description: "Negocios de base tecnológica con alto impacto y potencial de escalamiento."
+  },
+  {
+    title: "Emprendimientos Tradicionales",
+    image: imgTradicional,
+    description: "Productos y servicios innovadores que buscan escalar sus negocios al siguiente nivel."
+  },
+  {
+    title: "Proyectos de I+D",
+    image: imgID,
+    description: "Investigación aplicada por centros de estudio, ciencia y desarrollo tecnológico."
+  }
+];
 
 const CategoriesSection = () => {
   return (
@@ -41,16 +35,15 @@ const CategoriesSection = () => {
           
           <p className="mono-label mb-3">Categorías 2026</p>
           <h2 className="display-l2 text-foreground">
-            Este año abrimos 4 líneas de postulación
+            Este año abrimos 3 líneas de postulación
           </h2>
           <img src={colorsLine} alt="" className="w-48 mt-4" />
           <p className="text-muted-foreground mt-4 max-w-2xl">
-            Para potenciar el impacto, los stands de emprendedores del EtMday2026 tendrán cuatro categorías oficiales:
-          
+            Para potenciar el impacto, los stands de emprendedores del EtMday2026 tendrán tres categorías oficiales:
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 etm-grid">
+        <div className="grid md:grid-cols-3 etm-grid">
           {categories.map((cat, i) =>
           <motion.div
             key={i}
@@ -66,7 +59,6 @@ const CategoriesSection = () => {
                 src={cat.image}
                 alt={cat.title}
                 className="w-full h-full object-cover transition-all duration-500" />
-              
               </div>
               <p className="text-muted-foreground text-sm">{cat.description}</p>
               <div className="h-1 bg-primary/0 group-hover:bg-primary mt-4 transition-all duration-300 w-0 group-hover:w-full" />
@@ -74,8 +66,8 @@ const CategoriesSection = () => {
           )}
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default CategoriesSection;

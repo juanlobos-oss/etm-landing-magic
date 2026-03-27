@@ -9,6 +9,31 @@ const ExperienceSection = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid md:grid-cols-2 gap-16 items-center">
+          {/* Left: Photos */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+            viewport={{ once: true }}
+            className="space-y-4"
+          >
+            <div className="grid grid-cols-2 gap-4">
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp1} alt="Stand EtMday" className="w-full h-full object-cover" />
+              </div>
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp2} alt="Stand EtMday" className="w-full h-full object-cover" />
+              </div>
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp3} alt="Stand EtMday" className="w-full h-full object-cover" />
+              </div>
+              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
+                <img src={exp4} alt="Stand EtMday" className="w-full h-full object-cover" />
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Right: Text */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -45,29 +70,6 @@ const ExperienceSection = () => {
               ))}
             </ul>
             <a href="#proceso" className="btn-etm-primary">Postular</a>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-            viewport={{ once: true }}
-            className="space-y-4"
-          >
-            <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
-                <img src={exp1} alt="Stand EtMday" className="w-full h-full object-cover" />
-              </div>
-              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
-                <img src={exp2} alt="Stand EtMday" className="w-full h-full object-cover" />
-              </div>
-              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
-                <img src={exp3} alt="Stand EtMday" className="w-full h-full object-cover" />
-              </div>
-              <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
-                <img src={exp4} alt="Stand EtMday" className="w-full h-full object-cover" />
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>
