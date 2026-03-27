@@ -36,7 +36,7 @@ const WhySection = () => {
               Porque aquí no vienes solo a "estar presente".
             </p>
             <p className="text-foreground font-semibold mb-4">Vienes a:</p>
-            <ul className="space-y-2 mb-8">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-8">
               {benefits.map((b, i) => (
                 <motion.li
                   key={i}
