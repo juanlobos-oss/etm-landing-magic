@@ -52,8 +52,11 @@ const WhySection = () => {
                 </motion.li>
               ))}
             </ul>
-            <div>
+            <div className="mb-8">
               <a href="#proceso" className="btn-etm-primary">Postular</a>
+            </div>
+            <div className="overflow-hidden rounded-md border border-border">
+              <img src={why4} alt="Networking EtMday" className="w-full h-auto object-cover" />
             </div>
           </motion.div>
 
