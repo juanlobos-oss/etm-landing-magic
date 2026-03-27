@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import why1 from "@/assets/why-1.jpg";
 import why3 from "@/assets/why-3.jpg";
-import why4 from "@/assets/why-4.jpg";
+
 
 const benefits = [
   "Conectar con tomadores de decisión.",
@@ -55,7 +55,7 @@ const WhySection = () => {
               <a href="#proceso" className="btn-etm-primary">Postular</a>
             </div>
             <div className="overflow-hidden rounded-md border border-border">
-              <img src={why4} alt="Networking EtMday" className="w-full h-auto object-cover" />
+              <img src="/lovable-uploads/21069f58-65d6-4c0a-a800-71032140e5eb.jpg" alt="Networking EtMday" className="w-full h-auto object-cover" />
             </div>
           </motion.div>
 

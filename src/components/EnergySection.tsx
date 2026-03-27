@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import energyImg from "@/assets/etmday-energy.jpg";
+
 import colorsLine from "@/assets/colors-underline.svg";
 
 const testimonials = [
@@ -73,7 +73,7 @@ const EnergySection = () => {
             className="space-y-4"
           >
             <div className="border border-border overflow-hidden rounded-md">
-              <img src={energyImg} alt="Energía EtMday" className="w-full aspect-[16/10] object-cover" />
+              <img src="/lovable-uploads/a469ec3b-789d-4bf0-84f5-1a03f1a2c15e.jpg" alt="Energía EtMday" className="w-full aspect-[16/10] object-cover" />
             </div>
             <div className="border border-primary/30 bg-primary/5 p-5 rounded-md">
               <p className="text-foreground text-base font-light font-sans">

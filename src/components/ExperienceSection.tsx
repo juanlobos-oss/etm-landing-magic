@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import exp1 from "@/assets/exp-1.jpg";
 import exp2 from "@/assets/exp-2.jpg";
-import exp3 from "@/assets/exp-3.jpg";
-import exp4 from "@/assets/exp-4.jpg";
 
 const ExperienceSection = () => {
   return (
@@ -25,10 +23,10 @@ const ExperienceSection = () => {
                 <img src={exp2} alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
-                <img src={exp3} alt="Stand EtMday" className="w-full h-full object-cover" />
+                <img src="/lovable-uploads/28fd6409-a949-425b-a7fa-2a8ef0cd37e3.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
-                <img src={exp4} alt="Stand EtMday" className="w-full h-full object-cover" />
+                <img src="/lovable-uploads/f06a1f0a-0f26-4986-b0f3-07cfbe56efd1.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
               </div>
             </div>
           </motion.div>
