@@ -23,31 +23,31 @@ const energyPoints = [
   "Es cuando una empresa grande te dice \"conversemos después del evento\".",
   "Es cuando conoces a alguien que está pasando exactamente por lo mismo que tú.",
   "Es cuando un cliente te da retroalimentaciones en vivo sobre tu producto o servicio.",
+  "Es cuando un empresario te da un consejo que te cambia la perspectiva.",
 ];
 
 const EnergySection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4 md:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          viewport={{ once: true }}
-          className="mb-12"
-        >
-          <p className="mono-label mb-3">La energía</p>
-          <h2 className="display-l2 text-foreground mb-4">
-            La energía del EtMday
-          </h2>
-          <p className="text-muted-foreground max-w-xl">
-            Hay cosas que no se explican. <span className="text-foreground font-bold">Se viven.</span>
-          </p>
-        </motion.div>
-
-        <div className="grid md:grid-cols-2 gap-12 mb-16 items-start">
-          {/* Left: energy points - stretch to match right side */}
+        <div className="grid md:grid-cols-2 gap-12 mb-16 items-stretch">
+          {/* Left: header + energy points */}
           <div className="flex flex-col h-full">
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+              viewport={{ once: true }}
+              className="mb-8"
+            >
+              <p className="mono-label mb-3">La energía</p>
+              <h2 className="display-l2 text-foreground mb-4">
+                La energía del EtMday
+              </h2>
+              <p className="text-muted-foreground max-w-xl">
+                Hay cosas que no se explican. <span className="text-foreground font-bold">Se viven.</span>
+              </p>
+            </motion.div>
             <ul className="space-y-4 flex-1">
               {energyPoints.map((point, i) =>
                 <motion.li
