@@ -20,7 +20,7 @@ const WhySection = () => {
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid md:grid-cols-2 gap-16 items-stretch">
+        <div className="grid md:grid-cols-2 gap-3 md:gap-16 items-stretch">
           <motion.div
             className="flex flex-col"
             initial={{ opacity: 0, y: 10 }}
@@ -51,7 +51,7 @@ const WhySection = () => {
                 </motion.li>
               ))}
             </ul>
-            <div className="mb-8">
+            <div className="mb-3 md:mb-8">
               <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular</a>
             </div>
             <div className="overflow-hidden rounded-md border border-border">
