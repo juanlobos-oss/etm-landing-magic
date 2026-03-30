@@ -34,15 +34,15 @@ const HeroSection = () => {
 
           {/* Right: Description */}
           <motion.div {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.15 }}>
-            <div className="border border-border p-6 md:p-8 rounded-lg">
+            <div className="border border-border p-4 md:p-8 rounded-lg">
               {/* Mobile: compact version */}
               <div className="block md:hidden">
-                <p className="text-muted-foreground mb-3">EtMday no es una feria.</p>
-                <p className="text-foreground mb-4">
+                <p className="text-muted-foreground mb-2">EtMday no es una feria.</p>
+                <p className="text-foreground mb-3 text-sm">
                   Es donde emprendedores, empresas e inversionistas se encuentran cara a cara.
                 </p>
-                <p className="text-foreground font-semibold mb-1">Conexión. Colaboración. Oportunidades reales.</p>
-                <p className="text-primary font-bold text-lg mb-5">
+                <p className="text-foreground font-semibold mb-1 text-sm">Conexión. Colaboración. Oportunidades reales.</p>
+                <p className="text-primary font-bold mb-4">
                   Sé parte del corazón del EtMday. Es gratis.
                 </p>
                 <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular ahora</a>
