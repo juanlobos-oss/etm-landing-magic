@@ -62,7 +62,9 @@ const ProcessSection = () => {
             viewport={{ once: true }}
             className="flex flex-col sm:flex-row gap-3 md:mt-2">
             <a
-              href="https://etmday.org"
+              href="https://drive.google.com/file/d/1zRyie3G1MhNd9LI-bN0OBf9tVSvtHUZ0/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-border text-foreground font-bold uppercase px-6 py-3 rounded-full hover:bg-foreground hover:text-background transition-colors duration-200 text-sm text-center whitespace-nowrap"
             >
               Revisar las bases

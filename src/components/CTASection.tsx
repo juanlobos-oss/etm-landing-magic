@@ -33,7 +33,9 @@ const CTASection = () => {
               Postular
             </a>
             <a
-              href="https://etmday.org"
+              href="https://drive.google.com/file/d/1zRyie3G1MhNd9LI-bN0OBf9tVSvtHUZ0/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border-2 border-primary-foreground text-primary-foreground font-bold uppercase px-10 py-5 rounded-full hover:bg-primary-foreground hover:text-primary transition-colors duration-200 inline-block text-center bg-transparent"
             >
               Revisa las bases
