@@ -97,6 +97,22 @@ const ProcessSection = () => {
         </div>
 
         <motion.div
+          className="mt-8 flex flex-col sm:flex-row gap-3 justify-center"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.25 }}
+          viewport={{ once: true }}>
+          <a
+            href="https://emprendetumente.vform.io/process/9067/public"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-etm-primary text-center"
+          >
+            Postular ahora
+          </a>
+        </motion.div>
+
+        <motion.div
           className="mt-8 border border-border p-6 rounded-md"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
