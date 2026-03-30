@@ -20,7 +20,7 @@ const WhySection = () => {
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid md:grid-cols-2 gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-16 items-stretch">
           <motion.div
             className="flex flex-col"
             initial={{ opacity: 0, y: 10 }}
@@ -55,21 +55,21 @@ const WhySection = () => {
               <a href="#proceso" className="btn-etm-primary">Postular</a>
             </div>
             <div className="overflow-hidden rounded-md border border-border">
-              <img src="/lovable-uploads/21069f58-65d6-4c0a-a800-71032140e5eb.jpg" alt="Networking EtMday" className="w-full h-auto object-cover" />
+              <img src="/lovable-uploads/0C5A1337.jpg" alt="Networking EtMday" className="w-full h-auto object-cover" />
             </div>
           </motion.div>
 
           <motion.div
-            className="flex flex-col gap-3"
+            className="flex flex-col gap-3 h-full"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             viewport={{ once: true }}
           >
-            <div className="flex-[3] overflow-hidden rounded-md border border-border">
+            <div className="flex-1 overflow-hidden rounded-md border border-border">
               <img src={why3} alt="Stands EtMday" className="w-full h-full object-cover" />
             </div>
-            <div className="flex-[2] overflow-hidden rounded-md border border-border">
+            <div className="flex-1 overflow-hidden rounded-md border border-border">
               <img src={why1} alt="Emprendedores EtMday" className="w-full h-full object-cover" />
             </div>
           </motion.div>
