@@ -38,7 +38,7 @@ const HeroSection = () => {
               <p className="text-muted-foreground mb-4">EtMday no es una feria.</p>
               <p className="text-foreground mb-4">
                 Es el punto de encuentro donde emprendedores, grandes empresas, inversionistas, 
-                organizaciones públicas, organizaciones de apoyo emprendedor y mentores se cruzan cara a cara.
+                organizaciones públicas, privadas y mentores se cruzan cara a cara.
               </p>
               <div className="space-y-1 mb-6">
                 <p className="text-foreground font-semibold">Es intensidad.</p>
