@@ -11,7 +11,7 @@ const fadeUp = {
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-16 md:pt-20 overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img src={heroImg} alt="EtMday evento" className="w-full h-full object-cover opacity-60" />
@@ -19,7 +19,7 @@ const HeroSection = () => {
       </div>
 
       <div className="container mx-auto px-4 md:px-8 relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
           {/* Left: Title */}
           <motion.div {...fadeUp}>
             <p className="mono-label mb-4">EtMday 2026 · Stands de Emprendedores</p>
