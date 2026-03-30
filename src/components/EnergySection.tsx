@@ -4,16 +4,16 @@ import colorsLine from "@/assets/colors-underline.svg";
 
 const testimonials = [
   {
-    quote: "EtMday tiene una vibra única: personas motivadas, interesadas, con mentalidad abierta. Esa energía se contagia.",
-    author: "Emprendedor EtMday 2025"
+    quote: "Conecté de maneras inesperadas. Iba principalmente a buscar potenciales clientes, pero encontré muchas posibles colaboraciones en otras líneas que no tenía en mi radar.”",
+    author: "Vania Tapia, emprendedora"
   },
   {
-    quote: "Me permitió conectar con empresas que de otra forma no habría podido contactar.",
-    author: "Fundadora, Startup Zona Celeste"
+    quote: "Volvería a repetir esta experiencia mil veces, porque me recordó por qué empecé, hacia dónde voy y que sí es posible crecer cuando otras personas creen en ti.\nGracias por abrir puertas, por creer y por impulsar nuestros sueños.”",
+    author: "Luisa Licancura, Emprendedora"
   },
   {
-    quote: "Conectamos con dos clientes y muchos fundadores, fue increíble.",
-    author: "CEO, Scaleup Tecnológica"
+    quote: "Gracias a nuestro stand, llegaron personas de todo tipo: inversionistas, potenciales clientes y posibles alianzas, lo que nos permitió generar una lista de contactos de muy buena calidad.",
+    author: "Frank Oliva, emprendedor"
   }
 ];
 
@@ -102,7 +102,7 @@ const EnergySection = () => {
               transition={{ duration: 0.4, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
               viewport={{ once: true }}
             >
-              <p className="text-foreground text-lg mb-4">"{t.quote}"</p>
+              <p className="text-foreground text-lg mb-4 whitespace-pre-line">"{t.quote}"</p>
               <p className="mono-label text-primary">{t.author}</p>
             </motion.div>
           )}
