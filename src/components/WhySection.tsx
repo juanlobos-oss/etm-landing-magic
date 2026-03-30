@@ -20,7 +20,7 @@ const WhySection = () => {
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid md:grid-cols-2 gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-16 items-stretch">
           <motion.div
             className="flex flex-col"
             initial={{ opacity: 0, y: 10 }}
