@@ -26,7 +26,7 @@ const ExperienceSection = () => {
                 <img src="/lovable-uploads/DSC08736.jpg" alt="Stand EtMday VR" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-square bg-secondary border border-border overflow-hidden rounded-md">
-                <img src="/lovable-uploads/f06a1f0a-0f26-4986-b0f3-07cfbe56efd1.jpg" alt="Stand EtMday" className="w-full h-full object-cover" />
+                <img src="/lovable-uploads/ETM_Dia2_MM_MG_5345.jpg" alt="Stand EtMday crowd" className="w-full h-full object-cover" />
               </div>
             </div>
           </motion.div>
