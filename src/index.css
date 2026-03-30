@@ -103,7 +103,7 @@
   .stat-number {
     font-family: 'Inter', sans-serif;
     font-variant-numeric: tabular-nums;
-    @apply text-4xl md:text-5xl font-bold;
+    @apply text-3xl md:text-5xl font-bold;
   }
 
   .section-divider {

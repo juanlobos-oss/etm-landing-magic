@@ -67,10 +67,10 @@ const WhySection = () => {
             viewport={{ once: true }}
           >
             <div className="flex-1 overflow-hidden rounded-md border border-border">
-              <img src={why3} alt="Stands EtMday" className="w-full h-full object-cover" />
+              <img src={why3} alt="Stands EtMday" className="w-full h-full object-cover max-h-[300px] md:max-h-none" />
             </div>
             <div className="flex-1 overflow-hidden rounded-md border border-border">
-              <img src={why1} alt="Emprendedores EtMday" className="w-full h-full object-cover" />
+              <img src={why1} alt="Emprendedores EtMday" className="w-full h-full object-cover max-h-[300px] md:max-h-none" />
             </div>
           </motion.div>
         </div>
