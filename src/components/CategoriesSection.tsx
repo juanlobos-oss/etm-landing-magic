@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import imgStartups from "@/assets/stands-startups.jpg";
 import imgTradicional from "@/assets/stands-tradicional-v2.jpg";
-import imgID from "@/assets/stands-id.jpg";
+import imgID from "@/assets/stands-id-v2.jpg";
 import colorsLine from "@/assets/colors-underline.svg";
 
 const categories = [
