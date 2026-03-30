@@ -51,7 +51,7 @@ const WhySection = () => {
                 </motion.li>
               ))}
             </ul>
-            <div className="mb-8">
+            <div className="mb-3 md:mb-8">
               <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular</a>
             </div>
             <div className="overflow-hidden rounded-md border border-border">
