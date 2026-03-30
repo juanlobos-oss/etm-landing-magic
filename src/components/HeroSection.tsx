@@ -22,12 +22,12 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
           {/* Left: Title */}
           <motion.div {...fadeUp}>
-            <p className="mono-label mb-4">EtMday 2026 · Stands de Emprendedores</p>
-            <h1 className="display-l1 text-foreground mb-6">
+            <p className="mono-label mb-2 md:mb-4">EtMday 2026 · Stands de Emprendedores</p>
+            <h1 className="display-l1 text-foreground mb-3 md:mb-6">
               Ten un stand en el EtMday<span className="text-primary">2026</span>
             </h1>
-            <img src={colorsLine} alt="" className="w-48 mb-6" />
-            <p className="text-lg text-muted-foreground max-w-lg mb-2">
+            <img src={colorsLine} alt="" className="w-48 mb-3 md:mb-6" />
+            <p className="text-lg text-muted-foreground max-w-lg mb-1 md:mb-2">
                Encuentro Internacional de Innovación, Emprendimiento e Inversión más grande de Latinoamérica.
             </p>
           </motion.div>
