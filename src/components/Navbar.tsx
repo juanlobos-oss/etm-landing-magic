@@ -1,6 +1,6 @@
 import logo from "@/assets/logo-etmday.svg";
 
-const POSTULAR_URL = "https://emprendetumente.vform.io/process/9067/public";
+const POSTULAR_URL = "https://emprendetumente.vform.io/process/9345/public";
 
 const Navbar = () => {
   return (
