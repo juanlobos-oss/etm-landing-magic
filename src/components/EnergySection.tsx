@@ -102,7 +102,7 @@ const EnergySection = () => {
               transition={{ duration: 0.4, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
               viewport={{ once: true }}
             >
-              <p className="text-foreground text-lg mb-4">"{t.quote}"</p>
+              <p className="text-foreground text-lg mb-4 whitespace-pre-line">"{t.quote}"</p>
               <p className="mono-label text-primary">{t.author}</p>
             </motion.div>
           )}
