@@ -8,7 +8,7 @@ const testimonials = [
     author: "Vania Tapia, emprendedora"
   },
   {
-    quote: "Volvería a repetir esta experiencia mil veces, porque me recordó por qué empecé, hacia dónde voy y que sí es posible crecer cuando otras personas creen en ti. Gracias por abrir puertas, por creer y por impulsar nuestros sueños.”",
+    quote: "Volvería a repetir esta experiencia mil veces, porque me recordó por qué empecé, hacia dónde voy y que sí es posible crecer cuando otras personas creen en ti.\nGracias por abrir puertas, por creer y por impulsar nuestros sueños.”",
     author: "Luisa Licancura, Emprendedora"
   },
   {
