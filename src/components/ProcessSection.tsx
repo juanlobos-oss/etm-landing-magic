@@ -108,7 +108,7 @@ const ProcessSection = () => {
             rel="noopener noreferrer"
             className="btn-etm-primary text-center"
           >
-            Postular ahora
+            Postular
           </a>
         </motion.div>
 

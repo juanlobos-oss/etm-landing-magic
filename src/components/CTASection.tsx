@@ -30,7 +30,7 @@ const CTASection = () => {
               rel="noopener noreferrer"
               className="bg-background text-foreground font-black uppercase px-10 py-5 rounded-full hover:bg-foreground hover:text-background transition-colors duration-200 inline-block text-center text-lg"
             >
-              Postular ahora
+              Postular
             </a>
             <a
               href="https://etmday.org"
