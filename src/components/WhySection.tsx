@@ -60,16 +60,16 @@ const WhySection = () => {
           </motion.div>
 
           <motion.div
-            className="flex flex-col gap-3"
+            className="flex flex-col gap-3 h-full"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             viewport={{ once: true }}
           >
-            <div className="flex-[3] overflow-hidden rounded-md border border-border">
+            <div className="flex-1 overflow-hidden rounded-md border border-border">
               <img src={why3} alt="Stands EtMday" className="w-full h-full object-cover" />
             </div>
-            <div className="flex-[2] overflow-hidden rounded-md border border-border">
+            <div className="flex-1 overflow-hidden rounded-md border border-border">
               <img src={why1} alt="Emprendedores EtMday" className="w-full h-full object-cover" />
             </div>
           </motion.div>
