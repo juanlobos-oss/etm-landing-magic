@@ -68,10 +68,12 @@ const ProcessSection = () => {
               Revisar las bases
             </a>
             <a
-              href="https://etmday.org"
+              href="https://emprendetumente.vform.io/process/9067/public"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-etm-primary text-sm py-3 px-6 text-center whitespace-nowrap"
             >
-              Rellenar formulario
+              Postular
             </a>
           </motion.div>
         </div>
