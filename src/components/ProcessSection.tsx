@@ -68,7 +68,7 @@ const ProcessSection = () => {
               Revisar las bases
             </a>
             <a
-              href="https://emprendetumente.vform.io/process/9067/public"
+              href="https://emprendetumente.vform.io/process/9345/public"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-etm-primary text-sm py-3 px-6 text-center whitespace-nowrap"
@@ -103,7 +103,7 @@ const ProcessSection = () => {
           transition={{ duration: 0.4, delay: 0.25 }}
           viewport={{ once: true }}>
           <a
-            href="https://emprendetumente.vform.io/process/9067/public"
+            href="https://emprendetumente.vform.io/process/9345/public"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-etm-primary text-center"
