@@ -34,22 +34,37 @@ const HeroSection = () => {
 
           {/* Right: Description */}
           <motion.div {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.15 }}>
-            <div className="border border-border p-8 rounded-lg">
-              <p className="text-muted-foreground mb-4">EtMday no es una feria.</p>
-              <p className="text-foreground mb-4">
-                Es el punto de encuentro donde emprendedores, grandes empresas, inversionistas, 
-                organizaciones públicas, privadas y mentores se cruzan cara a cara.
-              </p>
-              <div className="space-y-1 mb-6">
-                <p className="text-foreground font-semibold">Es intensidad.</p>
-                <p className="text-foreground font-semibold">Es colaboración.</p>
-                <p className="text-foreground font-semibold">Es comunidad.</p>
-                <p className="text-foreground font-semibold">Es oportunidad real.</p>
+            <div className="border border-border p-6 md:p-8 rounded-lg">
+              {/* Mobile: compact version */}
+              <div className="block md:hidden">
+                <p className="text-muted-foreground mb-3">EtMday no es una feria.</p>
+                <p className="text-foreground mb-4">
+                  Es donde emprendedores, empresas e inversionistas se encuentran cara a cara.
+                </p>
+                <p className="text-foreground font-semibold mb-1">Conexión. Colaboración. Oportunidades reales.</p>
+                <p className="text-primary font-bold text-lg mb-5">
+                  Sé parte del corazón del EtMday. Es gratis.
+                </p>
+                <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular ahora</a>
               </div>
-              <p className="text-primary font-bold text-lg mb-6">
-                Sé parte del corazón del EtMday en los stands de emprendedores. Es gratis.
-              </p>
-              <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular ahora</a>
+              {/* Desktop: full version */}
+              <div className="hidden md:block">
+                <p className="text-muted-foreground mb-4">EtMday no es una feria.</p>
+                <p className="text-foreground mb-4">
+                  Es el punto de encuentro donde emprendedores, grandes empresas, inversionistas, 
+                  organizaciones públicas, privadas y mentores se cruzan cara a cara.
+                </p>
+                <div className="space-y-1 mb-6">
+                  <p className="text-foreground font-semibold">Es intensidad.</p>
+                  <p className="text-foreground font-semibold">Es colaboración.</p>
+                  <p className="text-foreground font-semibold">Es comunidad.</p>
+                  <p className="text-foreground font-semibold">Es oportunidad real.</p>
+                </div>
+                <p className="text-primary font-bold text-lg mb-6">
+                  Sé parte del corazón del EtMday en los stands de emprendedores. Es gratis.
+                </p>
+                <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular ahora</a>
+              </div>
             </div>
           </motion.div>
         </div>
