@@ -73,7 +73,7 @@ const EnergySection = () => {
             className="space-y-4"
           >
             <div className="border border-border overflow-hidden rounded-md">
-              <img src="/lovable-uploads/a469ec3b-789d-4bf0-84f5-1a03f1a2c15e.jpg" alt="Energía EtMday" className="w-full aspect-[16/10] object-cover" />
+              <img src="/lovable-uploads/818f1973-7cf1-4fcf-8f4e-88be8f8e5fab.jpg" alt="Energía EtMday" className="w-full aspect-[16/10] object-cover" />
             </div>
             <div className="border border-primary/30 bg-primary/5 p-5 rounded-md">
               <p className="text-foreground text-base font-light font-sans">
