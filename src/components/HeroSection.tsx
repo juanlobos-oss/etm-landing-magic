@@ -45,7 +45,7 @@ const HeroSection = () => {
                 <p className="text-primary font-bold mb-4">
                   Sé parte del corazón del EtMday. Es gratis.
                 </p>
-                <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular ahora</a>
+                <a href="https://emprendetumente.vform.io/process/9067/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular</a>
               </div>
               {/* Desktop: full version */}
               <div className="hidden md:block">
