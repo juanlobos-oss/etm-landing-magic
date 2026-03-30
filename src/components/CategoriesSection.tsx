@@ -13,7 +13,7 @@ const categories = [
   {
     title: "Emprendimientos Tradicionales",
     image: imgTradicional,
-    description: "Productos y servicios innovadores que buscan escalar sus negocios al siguiente nivel."
+    description: "Negocios tradicionales que están innovando para llevar su crecimiento al siguiente nivel."
   },
   {
     title: "Proyectos de I+D",
