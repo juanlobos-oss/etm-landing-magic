@@ -21,6 +21,7 @@ const Index = () => {
       <EnergySection />
       <ExperienceSection />
       <ProcessSection />
+      <CriteriaSection />
       <CTASection />
       <Footer />
     </div>
