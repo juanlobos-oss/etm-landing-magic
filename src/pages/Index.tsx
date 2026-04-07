@@ -6,6 +6,7 @@ import WhySection from "@/components/WhySection";
 import EnergySection from "@/components/EnergySection";
 import ExperienceSection from "@/components/ExperienceSection";
 import ProcessSection from "@/components/ProcessSection";
+import CriteriaSection from "@/components/CriteriaSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,7 @@ const Index = () => {
       <EnergySection />
       <ExperienceSection />
       <ProcessSection />
+      <CriteriaSection />
       <CTASection />
       <Footer />
     </div>
