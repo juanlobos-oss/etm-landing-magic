@@ -11,7 +11,7 @@ const fadeUp = {
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-16 md:pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-28 md:pt-32 overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img src={heroImg} alt="EtMday evento" className="w-full h-full object-cover opacity-60" />
