@@ -3,6 +3,7 @@ import CountdownBar from "@/components/CountdownBar";
 import HeroSection from "@/components/HeroSection";
 import StatsBar from "@/components/StatsBar";
 import CategoriesSection from "@/components/CategoriesSection";
+import ZonesSection from "@/components/ZonesSection";
 import WhySection from "@/components/WhySection";
 import EnergySection from "@/components/EnergySection";
 import ExperienceSection from "@/components/ExperienceSection";
@@ -19,6 +20,7 @@ const Index = () => {
       <HeroSection />
       <StatsBar />
       <CategoriesSection />
+      <ZonesSection />
       <WhySection />
       <EnergySection />
       <ExperienceSection />
