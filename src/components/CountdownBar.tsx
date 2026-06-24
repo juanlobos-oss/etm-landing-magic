@@ -24,10 +24,10 @@ const CountdownBar = () => {
 
   return (
     <div className="fixed top-16 left-0 right-0 z-40 bg-primary text-primary-foreground border-b border-primary/30">
-      <div className="container mx-auto px-4 md:px-8 h-10 flex items-center justify-center gap-2 md:gap-4 text-xs md:text-sm font-semibold">
+      <div className="container mx-auto px-3 md:px-8 h-12 md:h-12 flex items-center justify-center gap-3 md:gap-5 text-sm md:text-base font-semibold">
         <span className="hidden sm:inline">¡Últimos días para postular, no te quedes fuera!</span>
         <span className="sm:hidden">¡Últimos días!</span>
-        <span className="flex items-center gap-1.5 md:gap-2 font-mono tabular-nums">
+        <span className="flex items-center gap-1.5 md:gap-2 font-mono tabular-nums text-base md:text-lg">
           <span><span className="font-bold">{pad(t.days)}</span><span className="opacity-75 ml-0.5">d</span></span>
           <span>:</span>
           <span><span className="font-bold">{pad(t.hours)}</span><span className="opacity-75 ml-0.5">h</span></span>
