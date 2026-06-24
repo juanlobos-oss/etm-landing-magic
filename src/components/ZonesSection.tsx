@@ -63,7 +63,7 @@ const pymes: Zone[] = [
 ];
 
 const investigacion: Zone[] = [
-  { name: "I+D Ciencia Aplicada", description: "Investigación aplicada basada en evidencia | Salud y biotecnología | Economía circular y sustentable | Ciencia aplicada a la industria alimentaria | Transferencia a instituciones públicas y educativas | Entre otras" },
+  { name: "I+D Ciencia Aplicada", description: "Investigación aplicada por centros de estudio, ciencia y desarrollo tecnológico | Tecnología de frontera | Investigaciones de largo plazo | Entre otras" },
 ];
 
 type GroupProps = {
@@ -75,9 +75,9 @@ type GroupProps = {
 const ZoneGroup = ({ label, title, zones }: GroupProps) => {
   return (
     <div className="border border-border">
-      <div className="px-5 py-4 border-b border-border bg-card">
-        <p className="mono-label mb-1">{label}</p>
-        <h3 className="text-foreground font-bold text-xl">{title}</h3>
+      <div className="px-4 md:px-5 py-3 md:py-4 border-b border-border bg-card">
+        <p className="mono-label mb-1 text-[10px] md:text-xs">{label}</p>
+        <h3 className="text-foreground font-bold text-lg md:text-xl">{title}</h3>
       </div>
       <Accordion type="multiple" className="w-full">
         {zones.map((zone, i) => (
@@ -86,24 +86,24 @@ const ZoneGroup = ({ label, title, zones }: GroupProps) => {
             value={`${label}-${i}`}
             className="border-b border-border last:border-b-0"
           >
-            <AccordionTrigger className="px-5 py-4 hover:no-underline hover:bg-primary/5 text-left">
-              <span className="text-foreground font-semibold text-base">
+            <AccordionTrigger className="px-4 md:px-5 py-3 md:py-4 hover:no-underline hover:bg-primary/5 text-left gap-3">
+              <span className="text-foreground font-semibold text-sm md:text-base">
                 {zone.name}
               </span>
             </AccordionTrigger>
-            <AccordionContent className="px-5 pb-5">
-              <p className="text-muted-foreground text-sm leading-relaxed">
+            <AccordionContent className="px-4 md:px-5 pb-4 md:pb-5">
+              <p className="text-muted-foreground text-xs md:text-sm leading-relaxed">
                 {zone.description}
               </p>
               {zone.subdivisions && zone.subdivisions.length > 0 && (
-                <div className="mt-4 border-l-2 border-primary/40 pl-4 space-y-3">
-                  <p className="mono-label text-xs">Subdivisiones</p>
+                <div className="mt-4 border-l-2 border-primary/40 pl-3 md:pl-4 space-y-3">
+                  <p className="mono-label text-[10px] md:text-xs">Subdivisiones</p>
                   {zone.subdivisions.map((sub, j) => (
                     <div key={j}>
-                      <p className="text-foreground font-semibold text-sm">
+                      <p className="text-foreground font-semibold text-xs md:text-sm">
                         ↳ {sub.name}
                       </p>
-                      <p className="text-muted-foreground text-xs mt-1 leading-relaxed">
+                      <p className="text-muted-foreground text-[11px] md:text-xs mt-1 leading-relaxed">
                         {sub.description}
                       </p>
                     </div>
@@ -120,26 +120,26 @@ const ZoneGroup = ({ label, title, zones }: GroupProps) => {
 
 const ZonesSection = () => {
   return (
-    <section id="zonas" className="py-20 bg-background border-t border-border">
+    <section id="zonas" className="py-14 md:py-20 bg-background border-t border-border">
       <div className="container mx-auto px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true }}
-          className="mb-12"
+          className="mb-8 md:mb-12"
         >
           <p className="mono-label mb-3">Zonas del parque</p>
-          <h2 className="display-l2 text-foreground">
+          <h2 className="display-l2 text-foreground text-3xl md:text-5xl">
             Las zonas que organizarán el EtMday 2026
           </h2>
-          <img src={colorsLine} alt="" className="w-48 mt-4" />
-          <p className="text-muted-foreground mt-4 max-w-2xl">
+          <img src={colorsLine} alt="" className="w-36 md:w-48 mt-4" />
+          <p className="text-muted-foreground mt-4 max-w-2xl text-sm md:text-base">
             Conoce las verticales en las que se distribuirán los stands. Haz click en cada zona para ver el detalle.
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-3 gap-6">
+        <div className="grid lg:grid-cols-3 gap-4 md:gap-6">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -174,8 +174,8 @@ const ZonesSection = () => {
           </motion.div>
         </div>
 
-        <div className="mt-10 border border-dashed border-border p-5">
-          <p className="text-muted-foreground text-sm leading-relaxed">
+        <div className="mt-8 md:mt-10 border border-dashed border-border p-4 md:p-5">
+          <p className="text-muted-foreground text-xs md:text-sm leading-relaxed">
             <span className="text-foreground font-semibold">Aclaración:</span>{" "}
             Estas son las zonas referenciales del parque EtMday 2026 y pueden estar sujetas a cambios durante el año según el desarrollo de la convocatoria y la curatoría final de stands.
           </p>
