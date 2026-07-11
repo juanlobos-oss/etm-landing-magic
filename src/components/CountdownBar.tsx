@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-// June 30 2026 23:59 Chile time (UTC-4 in June) => 2026-07-01T03:59:00Z
-const TARGET = new Date("2026-07-01T03:59:00Z").getTime();
+// EtMday 2026: 19 de noviembre 09:45 Chile time (CLST UTC-3) => 2026-11-19T12:45:00Z
+const TARGET = new Date("2026-11-19T12:45:00Z").getTime();
 
 const getRemaining = () => {
   const diff = Math.max(0, TARGET - Date.now());
@@ -25,8 +25,8 @@ const CountdownBar = () => {
   return (
     <div className="fixed top-16 left-0 right-0 z-40 bg-primary text-primary-foreground border-b border-primary/30">
       <div className="container mx-auto px-3 md:px-8 h-12 md:h-12 flex items-center justify-center gap-3 md:gap-5 text-sm md:text-base font-semibold">
-        <span className="hidden sm:inline">¡Últimos días para postular, no te quedes fuera!</span>
-        <span className="sm:hidden">¡Últimos días!</span>
+        <span className="hidden sm:inline">Faltan para el EtMday 2026:</span>
+        <span className="sm:hidden">EtMday 2026 en:</span>
         <span className="flex items-center gap-1.5 md:gap-2 font-mono tabular-nums text-base md:text-lg">
           <span><span className="font-bold">{pad(t.days)}</span><span className="opacity-75 ml-0.5">d</span></span>
           <span>:</span>
