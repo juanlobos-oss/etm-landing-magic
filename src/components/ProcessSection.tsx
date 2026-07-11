@@ -11,7 +11,7 @@ const steps = [
 {
   step: "02",
   title: "Pre selección",
-  date: "Publicación: 1 de agosto",
+  date: "Publicación: 14 de agosto",
   description: "Pre-seleccionamos según propuesta de valor, potencial y visión. Buscamos equilibrio entre industrias, etapas y perfiles."
 },
 {
@@ -29,7 +29,7 @@ const steps = [
 {
   step: "05",
   title: "EtMday 2026",
-  date: "16, 17 y 18 de noviembre 2026",
+  date: "19, 20 y 21 de noviembre 2026",
   description: "¡Reconoce tu stand y vive la experiencia!"
 }];
 
@@ -70,7 +70,7 @@ const ProcessSection = () => {
               Revisar las bases
             </a>
             <a
-              href="https://emprendetumente.vform.io/process/9345/public"
+              href="https://emprendetumente.vform.io/process/9901/public"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-etm-primary text-sm py-3 px-6 text-center whitespace-nowrap"
@@ -105,7 +105,7 @@ const ProcessSection = () => {
           transition={{ duration: 0.4, delay: 0.25 }}
           viewport={{ once: true }}>
           <a
-            href="https://emprendetumente.vform.io/process/9345/public"
+            href="https://emprendetumente.vform.io/process/9901/public"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-etm-primary text-center"
