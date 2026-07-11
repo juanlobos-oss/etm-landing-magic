@@ -52,7 +52,7 @@ const WhySection = () => {
               ))}
             </ul>
             <div className="mb-3 md:mb-8">
-              <a href="https://emprendetumente.vform.io/process/9345/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular</a>
+              <a href="https://emprendetumente.vform.io/process/9901/public" target="_blank" rel="noopener noreferrer" className="btn-etm-primary">Postular</a>
             </div>
             <div className="overflow-hidden rounded-md border border-border">
               <img src="/lovable-uploads/0C5A1337.jpg" alt="Networking EtMday" className="w-full h-auto object-cover" />

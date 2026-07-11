@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo-etmday.svg";
 
-const POSTULAR_URL = "https://emprendetumente.vform.io/process/9345/public";
+const POSTULAR_URL = "https://emprendetumente.vform.io/process/9901/public";
 const BASES_URL = "https://drive.google.com/file/d/1zRyie3G1MhNd9LI-bN0OBf9tVSvtHUZ0/view?usp=sharing";
 
 const navLinks = [
