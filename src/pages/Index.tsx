@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import CountdownBar from "@/components/CountdownBar";
 import HeroSection from "@/components/HeroSection";
+import WaitlistSection from "@/components/WaitlistSection";
 import StatsBar from "@/components/StatsBar";
 import CategoriesSection from "@/components/CategoriesSection";
 import ZonesSection from "@/components/ZonesSection";
@@ -18,13 +19,14 @@ const Index = () => {
       <CountdownBar />
       <Navbar />
       <HeroSection />
+      <WaitlistSection />
+      <ProcessSection />
       <StatsBar />
       <CategoriesSection />
       <ZonesSection />
       <WhySection />
       <EnergySection />
       <ExperienceSection />
-      <ProcessSection />
       <CriteriaSection />
       <CTASection />
       <Footer />
